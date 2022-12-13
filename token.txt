@@ -1,0 +1,38 @@
+{"admin":"7|KhF7h0hxmgBY4Okd89nzz7aEeT5pCIilW3ykgSnO",
+"update":"8|bqqRlmVRdrAZcXL5QiWjb0L2I6G6SgDmvJZuMdJW",
+"basic":"9|EDgVht9Gwn7cEL4PULSiiIH6p17FiaNm4eV85pxU"}
+
+https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path
+//fixed link below
+https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path/blob/main/readme.md
+
+19|8dGGNUYxZdBg96IREHJXRC6RwPmnEjOi8Zxw9coi hesen superadmin
+58|ok2gtXdLFouYU6zt1OKAz3KX3hNUaYZyPv7bjDmj huseyn
+59|m3pDiPFSSlN8D6kN7Tbcec3sK4OT7jUAEDyPzMKi hsmusa superadmin
+
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+php artisan serve --port=8080
+
+php artisan config:clear
+php artisan config:cache
+php artisan cache:clear
+php artisan route:cache
+php artisan optimize
+
+  <div class="container">
+    <div class= "row">
+    <div class="col-md-6 mt-5">
+        <form method="post" action="" enctype="multipart/form-data">
+            @csrf
+            <img id="output" width="250" height="250"/>
+            <div class="form-group">
+                <label for="photos">Image Upload</label>
+                <input type="file" class="form-control" id="image" name="photos" onchange="loadFile(event)">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
